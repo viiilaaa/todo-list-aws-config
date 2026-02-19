@@ -1,6 +1,7 @@
-[production]
-[production.deploy]
-[production.deploy.parameters]
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
 stack_name = "todo-list-aws-production"
 s3_prefix = "todo-list-aws"
 region = "us-east-1"
