@@ -1,6 +1,7 @@
-[staging]
-[staging.deploy]
-[staging.deploy.parameters]
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
 stack_name = "todo-list-aws-staging"
 s3_prefix = "todo-list-aws"
 region = "us-east-1"
